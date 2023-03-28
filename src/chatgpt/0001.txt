@@ -1,0 +1,49 @@
+To find the sum of all the multiples of 3 or 5 below 1000, we need to add up all the multiples of 3 and 5 below 1000, but we have to be careful not to count the numbers that are multiples of both 3 and 5 twice.
+
+To do this, we can first find the sum of all the multiples of 3 below 1000, then add to that the sum of all the multiples of 5 below 1000, and finally subtract the sum of all the multiples of 15 (which are multiples of both 3 and 5) below 1000.
+
+The sum of all the multiples of 3 below 1000 can be found using the formula for the sum of an arithmetic sequence:
+
+sum = n/2 * (first term + last term)
+
+where n is the number of terms, and the first and last terms are the first and last multiples of 3 below 1000, respectively.
+
+The first multiple of 3 below 1000 is 3, and the last multiple of 3 below 1000 is 999. To find the number of terms, we can use the formula for the nth term of an arithmetic sequence:
+
+nth term = a + (n-1)*d
+
+where a is the first term, d is the common difference, and n is the number of terms. Solving for n, we get:
+
+n = (last term - first term)/d + 1
+
+For the multiples of 3, the common difference is 3, so we have:
+
+n = (999 - 3)/3 + 1 = 333
+
+Therefore, the sum of all the multiples of 3 below 1000 is:
+
+sum of multiples of 3 = 333/2 * (3 + 999) = 166,833
+
+Similarly, the sum of all the multiples of 5 below 1000 can be found using the same formula, with the first term being 5 and the last term being 995. The number of terms is:
+
+n = (995 - 5)/5 + 1 = 199
+
+Therefore, the sum of all the multiples of 5 below 1000 is:
+
+sum of multiples of 5 = 199/2 * (5 + 995) = 99,500
+
+Finally, we need to subtract the sum of all the multiples of 15 below 1000, which are multiples of both 3 and 5. The first multiple of 15 below 1000 is 15, and the last multiple of 15 below 1000 is 990. The number of terms is:
+
+n = (990 - 15)/15 + 1 = 66
+
+Therefore, the sum of all the multiples of 15 below 1000 is:
+
+sum of multiples of 15 = 66/2 * (15 + 990) = 33,165
+
+Now we can add up the sum of multiples of 3 and 5, and subtract the sum of multiples of 15 to get the final answer:
+
+sum of multiples of 3 or 5 below 1000 = sum of multiples of 3 + sum of multiples of 5 - sum of multiples of 15
+= 166,833 + 99,500 - 33,165
+= 233,168
+
+Therefore, the sum of all the multiples of 3 or 5 below 1000 is 233,168.
